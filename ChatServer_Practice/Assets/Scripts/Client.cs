@@ -16,7 +16,6 @@ public class Client : MonoBehaviour
 
     private bool _isSocketReady = false;
 
-    private void Start() => Screen.SetResolution(1980, 1080, FullScreenMode.Windowed);
     public void ConnectToServer()
     {
         if (_isSocketReady) return;
