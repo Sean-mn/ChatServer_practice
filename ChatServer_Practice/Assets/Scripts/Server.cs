@@ -6,6 +6,10 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.IO;
 
+/// <summary>
+/// class : ServerClient  
+/// desc  : 클라이언트의 TCP 연결 정보 및 이름을 저장하는 클래스
+/// </summary>
 public class ServerClient
 {
     public TcpClient tcp;
@@ -18,6 +22,18 @@ public class ServerClient
     }
 }
 
+/// <summary>
+/// class : Server  
+/// desc  : 서버를 생성하고 클라이언트와의 연결 및 메시지 송수신을 관리하는 클래스
+/// 
+/// function:
+/// CreateServer()                          : 서버 생성 및 포트 바인딩
+/// StartListening()                        : 클라이언트 연결 대기 시작
+/// AcceptTcpClient(IAsyncResult)           : 클라이언트 연결 수락
+/// OnIncommingData(ServerClient, string)   : 수신된 메시지 처리
+/// Broadcast(string, List<ServerClient>)   : 메시지를 모든 클라이언트에게 전송
+/// IsServerConnected(TcpClient)            : 클라이언트 연결 상태 확인
+/// </summary>
 public class Server : MonoBehaviour
 {
     [Header("UI")]

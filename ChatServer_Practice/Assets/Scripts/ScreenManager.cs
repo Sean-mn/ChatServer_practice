@@ -2,7 +2,7 @@
 
 /// <summary>
 /// class : SetScreenSize
-/// desc  : 해상도 및 화면 모드 초기 설정
+/// desc  : 해상도 및 화면 모드 초기 설정 관리 클래스
 /// 
 /// function:
 /// SetScreenSize(int width, int height, FullScreenMode screenMode): 화면 크기 설정 및 모드 설정

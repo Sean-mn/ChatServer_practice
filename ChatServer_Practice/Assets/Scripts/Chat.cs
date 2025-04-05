@@ -1,6 +1,15 @@
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// class : Chat  
+/// desc  : 채팅을 관리하고 화면에 보여주는 클래스
+///
+/// function:
+/// ShowMessage(string)   : 채팅 메시지를 출력
+/// Fit(RectTransform)    : 레이아웃을 즉시 다시 계산
+/// ScrollDelay()         : 스크롤을 맨 아래로 이동
+/// </summary>
 public class Chat : MonoBehaviour
 {
     private static Chat _instance;
