@@ -1,14 +1,14 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 using UnityEngine.UI;
 
 /// <summary>
 /// class : Chat  
-/// desc  : Ã¤ÆÃÀ» °ü¸®ÇÏ°í È­¸é¿¡ º¸¿©ÁÖ´Â Å¬·¡½º
+/// desc  : ì±„íŒ…ì„ ê´€ë¦¬í•˜ê³  í™”ë©´ì— ë³´ì—¬ì£¼ëŠ” í´ë˜ìŠ¤
 ///
 /// function:
-/// ShowMessage(string)   : Ã¤ÆÃ ¸Ş½ÃÁö¸¦ Ãâ·Â
-/// Fit(RectTransform)    : ·¹ÀÌ¾Æ¿ôÀ» Áï½Ã ´Ù½Ã °è»ê
-/// ScrollDelay()         : ½ºÅ©·ÑÀ» ¸Ç ¾Æ·¡·Î ÀÌµ¿
+/// ShowMessage(string)   : ì±„íŒ… ë©”ì‹œì§€ë¥¼ ì¶œë ¥
+/// Fit(RectTransform)    : ë ˆì´ì•„ì›ƒì„ ì¦‰ì‹œ ë‹¤ì‹œ ê³„ì‚°
+/// ScrollDelay()         : ìŠ¤í¬ë¡¤ì„ ë§¨ ì•„ë˜ë¡œ ì´ë™
 /// </summary>
 public class Chat : MonoBehaviour
 {
