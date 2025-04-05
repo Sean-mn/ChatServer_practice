@@ -1,7 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-
 public class Chat : MonoBehaviour
 {
     private static Chat _instance;
